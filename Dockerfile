@@ -1,4 +1,5 @@
-FROM phusion/baseimage
+ARG BASE_IMAGE=ubuntu:18.04
+FROM $BASE_IMAGE
 LABEL maintainer="Artemio Stranetti <choodique@pm.me>"
 
 # TorrServer version
